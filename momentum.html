@@ -14,29 +14,29 @@
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
 
-  /* Spacing */
+  
   --space-xs:  4px;
   --space-sm:  8px;
   --space-md:  16px;
   --space-lg:  24px;
   --space-xl:  40px;
 
-  /* Border radius */
+  
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-xl: 28px;
 
-  /* Transitions */
+  
   --t-fast: 0.15s ease;
   --t-med:  0.25s ease;
   --t-slow: 0.4s ease;
 
-  /* Sidebar */
+  
   --sidebar-w: 230px;
 }
 
-/* DARK THEME (default) */
+
 [data-theme="dark"] {
   --bg:            #0d0f14;
   --bg-2:          #13161e;
@@ -72,7 +72,7 @@
   --glass-border:  rgba(255,255,255,0.08);
 }
 
-/* LIGHT THEME */
+
 [data-theme="light"] {
   --bg:            #f4f5f9;
   --bg-2:          #ecedf3;
@@ -108,9 +108,7 @@
   --glass-border:  rgba(0,0,0,0.08);
 }
 
-/* ============================================================
-   2. RESET & BASE
-   ============================================================ */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; }
@@ -138,9 +136,7 @@ svg { display: block; flex-shrink: 0; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 4px; }
 
-/* ============================================================
-   3. LAYOUT
-   ============================================================ */
+
 .sidebar {
   width: var(--sidebar-w);
   min-height: 100vh;
